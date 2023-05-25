@@ -7,7 +7,7 @@
     font-weight: bolder;
     font-size: 22px;
     margin-left: 35%;
-    background-color: #0B0C10;
+    background-color: #1F2833;
   }
   em{
     justify-content: center;
@@ -103,7 +103,7 @@ list-style: none;
   aside {
     flex: 1;
     background-color: #1F2833;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     color: #c5c6c7;  
   }
@@ -149,20 +149,12 @@ list-style: none;
   color: rgb(0, 255, 153);
   flex-wrap: wrap;
   }
-  .card-3 {
-    width: 375px;
-    height: 375px;
-  background: #1F2833;
-  margin: 50px;
-  border-radius: 15px;
-  color: rgb(0, 255, 153);
-  flex-wrap: wrap;
-  }
+  
   h4 {
     font-weight: bolder;
     font-size: 22px;
     margin-left: 25%;
-    background-color: #0B0C10;
+    background-color: #1F2833;
    
   }
   body {
@@ -203,7 +195,7 @@ list-style: none;
     background-image:url(../images/Backend.png) ;
     background-size: cover;
   }
-
+/* bottom row below */
   .car-3 {
     background-image:url(../images/skills2.jpg) ;
     background-size: cover;
@@ -219,6 +211,15 @@ list-style: none;
    margin: 10px 95px;
     
   }
+  .card-3 {
+    width: 375px;
+    height: 375px;
+  background: #1F2833;
+  margin: 50px;
+  border-radius: 15px;
+  color: rgb(0, 255, 153);
+  flex-wrap: wrap;
+  }
   .card-3 a {
     background-color: #0B0C10;
     color: white;
@@ -226,6 +227,14 @@ list-style: none;
     display: block;
    text-align: center;
    margin: 0 70px;
+  }
+  .card-image.car-3{
+    background-size: 450px 225px;
+  background-position: center;
+    
+  }
+  div.card-3 {
+    margin-left: 5%;
   }
   /*all above is for  middle flexbox*/
   /*all below is for top flexbox*/
@@ -263,7 +272,8 @@ list-style: none;
    border-radius: 15px;
    margin-left: 0;
    margin-top: 5%;
-   box-shadow: 30px 45px 175px black;;
+   box-shadow: 30px 45px 175px black;
+   padding: 20px solid black;
   }
   .section-main {
     width: 1000px;
@@ -273,7 +283,7 @@ list-style: none;
     flex-wrap: wrap;
     justify-content: center;
     background-image: url(../images/hardwood-grey2.jpg);
-    box-shadow: 5px 5px 50px black;
+    margin-bottom: 0%;
   
   }
    .div-2 p {
@@ -286,10 +296,11 @@ list-style: none;
 }
     /*all below is for footer*/
   footer {
-    padding: 60px;
+    padding: 110px;
     text-align: center;
     background: #1F2833;
     color:white;
+    justify-content: center;
   }
  
 
