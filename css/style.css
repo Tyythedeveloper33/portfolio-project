@@ -7,11 +7,13 @@
     font-weight: bolder;
     font-size: 22px;
     margin-left: 35%;
-    background-color: #1F2833;
+    background-color: black;
   }
+  
   em{
     justify-content: center;
   }
+ 
   header {
     padding: 40px;
     text-align: center;
@@ -112,38 +114,44 @@ list-style: none;
     margin-top: 10%;
   }
   /*all below is for section*/
+  /*$laptop: 1024px;// lg
+  $desktop: 1200px; // lx
+  $tablet : 768px; // xl
+  $iphone :480px ;// sm
   
   
   
   
-  @media screen and (max-width: 768px) {
-    /* Use flex-direction to stack the navbar, sidebar, and body */
-    main,
-    nav {
-      flex-direction: column;
+    /* For media screen size 1200 desktop width*/
+
+    @media screen and (min-width:1200px){
+   {
      
+     { 
       
+
+     }
+      }
+
+   
     }
+      
+    
     /* Make the sidebar stack below the body */
-    aside {
-      order: 2;
-    }
-    /* Change the header background */
-    header {
-      background: #772014;
-    }
-    /* Change the navbar and footer background */
-    nav,
-    footer {
-      background-color: #bb8588;
-    }
-  }
+   
+     
+    
+       
+      
+      
+    
+  
   /*all above is for  middle flexbox*/
  
  .card {
     width: 375px;
     height: 350px;
-  background: #1F2833;
+  background: black;
   margin: 20px;
   border-radius: 15px;
   color: rgb(0, 255, 153);
@@ -154,7 +162,7 @@ list-style: none;
     font-weight: bolder;
     font-size: 22px;
     margin-left: 25%;
-    background-color: #1F2833;
+    background-color: black;
    
   }
   body {
@@ -178,6 +186,7 @@ list-style: none;
     background: none;
     margin-bottom: 0%;
    flex-wrap: wrap;
+   
   }
   p {
     text-align: center;
@@ -188,13 +197,14 @@ list-style: none;
     height: 225px;
   }
   .car-1 {
-    background-image:url(../images/bluecode3.jpg);
+    background-image:url(../images/bluecode3.jpg) ;
     background-size: cover;
   }
   .car-2 {
     background-image:url(../images/Backend.png) ;
     background-size: cover;
   }
+  /* above is for middle flexbox*/
 /* bottom row below */
   .car-3 {
     background-image:url(../images/skills2.jpg) ;
@@ -202,6 +212,7 @@ list-style: none;
     
 
   }
+  
   .card a {
     background-color: #0B0C10;
     color: white;
@@ -214,7 +225,7 @@ list-style: none;
   .card-3 {
     width: 375px;
     height: 375px;
-  background: #1F2833;
+  background: black;
   margin: 50px;
   border-radius: 15px;
   color: rgb(0, 255, 153);
@@ -228,7 +239,7 @@ list-style: none;
    text-align: center;
    margin: 0 70px;
   }
-  .card-image.car-3{
+  .car-3{
     background-size: 450px 225px;
   background-position: center;
     
@@ -236,7 +247,7 @@ list-style: none;
   div.card-3 {
     margin-left: 5%;
   }
-  /*all above is for  middle flexbox*/
+  
   /*all below is for top flexbox*/
   
   .section-main .div-1 {
@@ -247,19 +258,23 @@ list-style: none;
     
     
   }
+  
+  
   .section-main .div-2  em {
     width: 50%;
     height: 99%;
-    background-color:#1F2833;
+    background-color:black;
     text-align: center;
     font-size: 18px;
     color:rgb(0, 255, 153);
    font-weight: bolder;
   margin-left: 25%;
   display: flex;
+  } 
+  
   
     
-  }
+  
   .section-main .div-2:hover {
     color: #27231D;
     cursor: pointer;
@@ -284,6 +299,7 @@ list-style: none;
     justify-content: center;
     background-image: url(../images/hardwood-grey2.jpg);
     margin-bottom: 0%;
+    
   
   }
    .div-2 p {
@@ -297,10 +313,13 @@ list-style: none;
     /*all below is for footer*/
   footer {
     padding: 110px;
-    text-align: center;
     background: #1F2833;
     color:white;
     justify-content: center;
   }
- 
+ h3 {
+  justify-content: center;
+  text-align:right;
+
+ }
 
