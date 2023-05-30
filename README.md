@@ -2,26 +2,30 @@
 ## Description
 * my motivation for this project was really my curiosity of learning new things!
 
-* I built this project to simply make myself more accessible to the world as i am trying to meet as many people I can to potentially learn from eachother! 
+* I built this project to simply make myself more accessible to the world as I am trying to meet as many people I can to potentially learn from eachother! 
 
 * With the make of this project it gives users the simple starting point to building or just looking at how i built a simple porfolio that anyone can branch off with and add their unique creativity!
 
-* the main thing that I took away from this activity is learning how to connect pathways from index.html to Css, it allows you me to indulge in my own prefernce of creative abilities to set myself apart, also with the use of creating bordered content gives the website an extra taste, I was very excited after figuring out how to do it properly!
+* the main thing that I took away from this activity is learning how to connect pathways from index.html to Css, it allows you me to indulge in my own prefernce of creative abilities to set myself apart! 
 
 
 ## This is a index.html & style.css file that breifs a bit about me,and ways to contact me, 
 
-this project is an example of a simple front-end design I built with VS-code designated to show a bit about me, skills that I have learned, and ways to contact me involving my social medias, card boxes are not interactive yet unless I decide to build off of this project for future class projects!
+this project is an example of a simple front-end design I built with VS-code designated to show a bit about me, skills that I have learned,eventually to be showed once i add javascript and ways to contact me involving my social medias in my logo, card boxes are not interactive yet untill Its time  to build off of this project for future class projects!
 
 * Create a web design that you can find semantic HTML elements
 * create code in a structural way that elements follow a logical structure independent of styling and positioning
 * Added image elements that has accessible alt attributes
 * reated heading attributes that fall in sequential order
 *  Created title elements that are concise, & descriptive 
+* Added anchor element links so when you click on navigational links it makes section jump to the content cards
+*added media queries that allow the webpage to be viewed on different devices addjusting to the height and width
 
-## video of how it looks
+## Picture of how it looks
 
-https://drive.google.com/file/d/1eQpuJBuOkFhucIs4Tm251XegH01urUlM/view
+ images\127.0.0.1_5500_index.html (1).png
+ 
+
 
 ## Installation
  * To install this You will first need Visual Studio Code

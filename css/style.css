@@ -206,6 +206,12 @@ background-size: cover;
       height: 145px;
 
      }
+    
+     .footer {
+      display:list-item;
+      
+     }
+     
 
   
    }
@@ -226,7 +232,6 @@ background-size: cover;
       height: 145px;
 
      }
-
   
    }
    /*if screen is less than 863px takes in line position for cards*/
@@ -330,18 +335,7 @@ $iphone :480px ;// sm
 
   /* For media screen size 1200 desktop width*/
 
-  @media screen and (min-width:1200px){
- {
-   
-   { 
-    
-
-   }
-    }
-
  
-  }
-    
   
   /* Make the sidebar stack below the body */
  
@@ -359,9 +353,12 @@ $iphone :480px ;// sm
     .footer {
       background-color: #0B0C10;
       color: rgb(0, 255, 153);
-      display: flex;
-      flex-wrap: wrap;
+      display:inline-block;
+      flex-wrap:wrap ;
       margin-top: 11%;
+      display:flex;
+      justify-content: center;
+     
 
     }
     
