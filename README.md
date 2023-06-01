@@ -23,7 +23,7 @@ this project is an example of a simple front-end design I built with VS-code des
 
 ## Picture of how it looks
 
-![pic of portfolio](screenshot.png)
+![Alt text](Screenshot.png)
 
 
 
