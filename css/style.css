@@ -10,7 +10,7 @@ em {
 }
 
 header {
-  padding: 0px;
+ 
   text-align: center;
   background: 	#0B0C10;
   color: white;
@@ -28,6 +28,12 @@ li, a, button {
   text-decoration: none;
   cursor: pointer;
   
+}
+li, a:hover{
+
+
+color:rgb(0, 255, 153);
+  border: none;
 }
 
 .nav_links { 
@@ -70,14 +76,19 @@ margin-right: 7%;
 border-radius: 15px;
 
 }
-a{
-  display: none;
+ button:hover {
+ color: white;
   
 }
+.nav_links:hover {
+  color:rgb(0, 255, 153);
+}
+
 li{
   list-style: none;
   margin: 5px;
 }
+
 li:hover{
   color: rgb(0, 255, 153);
 }
@@ -96,6 +107,12 @@ nav a {
   margin-left: 0%;
   color: rgb(0, 255, 153);
 }
+menu{
+  display: none;
+}
+.container-2{
+ margin-right: 11%;
+}
 /* all above is for nav  bar */
 /* all below is for @media  for nav guide */
 @media screen and (min-width:1200px){
@@ -109,7 +126,7 @@ nav a {
 
 
 @media screen and (max-width:926px){
-  .Sub-Menu{
+  menu{
     display: inline-block;
   }
 .nav_links{
@@ -254,6 +271,37 @@ background-size: cover;
   
     
      }
+
+
+
+     @media screen and (max-width:990px){
+      .container{
+        margin-left: 39%;
+        margin-top: 4%;
+       height: 200px;
+       width: 250px;
+         }
+         .container-4{
+          margin-left: 39%;
+          height: 200px;
+          width:250px ;
+          margin-top: 5px;
+    
+         }
+        .container-2 {
+          margin-left: 35%;
+          height: 145px;
+          width: 250px;
+          height: 200px;
+          margin-left: 39%;
+          margin-top: 5px;
+           margin-right: 75px;
+           margin-bottom: 0%;
+    
+         }
+    
+      
+       }
      /*if screen is bigger than 990px*/
      @media screen and (min-width:990px){
       .container{
@@ -274,7 +322,7 @@ background-size: cover;
           height: 145px;
           width: 250px;
           height: 200px;
-          margin-left: 15%;
+          margin-left: 39%;
           margin-top: 5px;
            margin-right: 75px;
            margin-bottom: 0%;
@@ -314,7 +362,7 @@ background-size: cover;
          }
     
 
-
+/* smaller screens 450 px */
 
 
 
@@ -368,18 +416,22 @@ font-family: monospace;
 color: white;
 border-radius: 15px;
 font-size: 13px;
+margin-right: 11%;
+height: 250px;
 }
 .container {
   font-family: monospace;
 color: white;
 border-radius: 15px;
 font-size: 18px;
+height: 250px;
 }
 .container-4{
   font-family: monospace;
 color: white;
 border-radius: 15px;
 font-size: 18px;
+height: 250px;
 }
 .container-4:hover {
   cursor: pointer;

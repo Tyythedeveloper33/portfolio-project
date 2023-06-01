@@ -23,8 +23,8 @@ this project is an example of a simple front-end design I built with VS-code des
 
 ## Picture of how it looks
 
- images\127.0.0.1_5500_index.html (1).png
- 
+![pic of portfolio](screenshot.png)
+
 
 
 ## Installation
